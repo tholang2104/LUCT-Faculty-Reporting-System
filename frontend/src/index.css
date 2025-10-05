@@ -1,0 +1,78 @@
+/* ============================= */
+/* 🌞 Light Mode (Default)       */
+/* ============================= */
+body {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+/* ============================= */
+/* 🌙 Dark Mode                  */
+/* ============================= */
+body.dark-mode {
+  background-color: #121212;
+  color: #e9ecef;
+}
+
+/* Cards */
+body.dark-mode .card {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+  border: 1px solid #333;
+}
+
+body.dark-mode .card-hover:hover {
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
+}
+
+/* Tables */
+body.dark-mode table {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+}
+
+body.dark-mode .table-responsive {
+  border: 1px solid #333;
+}
+
+/* Scrollbar */
+body.dark-mode ::-webkit-scrollbar-track {
+  background: #222;
+}
+
+body.dark-mode ::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+body.dark-mode ::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}
+
+/* Badges */
+body.dark-mode .badge-submitted {
+  background-color: #d39e00;
+  color: #fff;
+}
+
+body.dark-mode .badge-reviewed {
+  background-color: #138496;
+}
+
+body.dark-mode .badge-approved {
+  background-color: #218838;
+}
+
+/* Navbar / Header (if used) */
+body.dark-mode .navbar,
+body.dark-mode header {
+  background-color: #1c1c1c;
+  border-bottom: 1px solid #333;
+}
+
+body.dark-mode a {
+  color: #66b2ff;
+}
+
+body.dark-mode a:hover {
+  color: #3399ff;
+}
